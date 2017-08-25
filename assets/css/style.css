@@ -1,0 +1,55 @@
+body, html {
+    background-color: #111;
+    color: dimgrey;
+    font-family: 'Quantico', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    color: firebrick;
+    padding: 0;
+    margin: 0;
+}
+
+
+h2 {
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    color: dimgrey;
+}
+
+
+p {
+    margin-bottom: 20px;
+}
+
+.game {
+    float: left;
+    margin: 75px 75px;
+    padding: 0 50px;
+    border-right: solid 5px dimgrey;
+    height: 300px;
+}
+
+.user-info {
+    margin: 75px 20px;
+    padding: 0 50px;
+    height: 300px;
+}
+
+#current-word,
+#letters-guessed,
+#guesses-left {
+    margin-bottom: 50px;
+}

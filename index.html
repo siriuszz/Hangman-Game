@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Action Movie Hangman</title>
-    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quantico:700,700i" rel="stylesheet">
 </head>
 <body>
 
-    <h1>Hangman</h1>
-    <h2>Action Movie Edition</h2>
-    <h3>This time it's personal.</h3>
+<header>
 
-    <div>
+    <h1>Hangman: Action Movie Edition</h1>
+
+    <h2>This time it's personal.</h2>
+
+</header>
+
+    <div class="game">
         <p>Use your keyboard to guess letters in the current movie title.</p>
-    </div>
 
-    <div>
         <p>Current Word:</p>
        <div id="current-word"></div>
     </div>
 
-    <div>
+    <div class="user-info">
         <p>Letters you've already guessed:</p>
         <div id="letters-guessed"></div>
-    </div>
 
-    <div>
         <p>Number of guesses remaining:</p>
         <div id="guesses-left"></div>
     </div>
+
 
 <script src="assets/javascript/game.js"></script>
 
