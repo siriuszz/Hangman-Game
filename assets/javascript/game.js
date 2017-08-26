@@ -13,7 +13,7 @@ var guessesLeft = 9;
 
 
     //Computer makes its guess
-    // ?? -- HOW CAN I REPLACE THE LETTERS WITH BLANK SPACES UNTIL THEY'RE GUESSED?
+    // ?? -- HOW CAN I REPLACE GET THE LETTERS TO SHOW UP WHEN THEY'RE GUESSED?
     var computerChoice = movies[Math.floor(Math.random() * movies.length)];
 
     var answerArray = [];
@@ -24,7 +24,9 @@ var guessesLeft = 9;
 
         var lettersLeft = computerChoice.length;
 
-//Display progress of game
+    //Display progress of game
+    // ?? -- HOW CAN I HOLD ON TO EACH GUESS INSTEAD OF OVERWRITING IT WITH EACH NEW GUESS?
+
     document.getElementById("current-word").innerHTML = (answerArray.join(" "));
 
 
@@ -42,7 +44,7 @@ var guessesLeft = 9;
                 guessesLeft--;
             }
         }
-        
+
 
 
     // Displays which guesses have been made
@@ -52,13 +54,7 @@ var guessesLeft = 9;
     document.getElementById("guesses-left").innerHTML = guessesLeft;
 
 
-        // // ?? -- HOW CAN I HOLD ON TO EACH GUESS INSTEAD OF OVERWRITING IT WITH EACH NEW GUESS?
-        // var guessesLeft = 9;
-        // var text = "";
-        // var i;
-        // for (i = 0; i < guessesLeft; i++) {
-        //     text += userGuess[i] + ", ";
-        // }
+
 
     }
 
