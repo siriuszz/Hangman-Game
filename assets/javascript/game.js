@@ -36,6 +36,8 @@ var guessesLeft = 9;
         // Determines which key was pressed.
         var userGuess = event.key;
 
+        // A for loop to determine if user guess matches a letter in the word
+        // An if/else statement to fill in letter and reduce guesses lef
         for (var j = 0; j < computerChoice; j++) {
             if (computerChoice[j] === userGuess) {
                 answerArray[j] = userGuess;
